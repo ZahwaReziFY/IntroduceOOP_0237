@@ -9,3 +9,9 @@ private:
 public:
     string nama;
     float diameter;
+
+    void displayData()
+    {
+        cout << "gravitasiku " << gravitasi << endl;
+    }
+
